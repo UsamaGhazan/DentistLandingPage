@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/* @font-face {
+  font-family: "Open Sans";
+  src: url();
+} */
+:root {
+  --primary-color: #03aed2;
+  --secondary-color: #68d2e8;
+  --third-color: #fdde55;
+  --frth-color: #fdde55;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
