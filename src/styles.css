@@ -1,15 +1,29 @@
-/* @font-face {
-  font-family: "Open Sans";
-  src: url();
-} */
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
 :root {
   --primary-color: #03aed2;
   --secondary-color: #68d2e8;
   --third-color: #fdde55;
   --frth-color: #fdde55;
+  --regular-font: Roboto;
 }
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: var(--regular-font);
 }
